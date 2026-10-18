@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "주 메뉴" [ref=e3]:
+      - link "교무노트 홈" [ref=e4] [cursor=pointer]:
+        - /url: "#home"
+        - img [ref=e6]
+        - generic [ref=e8]:
+          - generic [ref=e9]: 교무노트
+          - generic [ref=e10]: CLASSROOM LOG
+      - generic [ref=e11]: WORKSPACE
+      - generic [ref=e12]:
+        - img [ref=e13]
+        - generic [ref=e16]: 반별 특이사항
+      - generic [ref=e18]:
+        - generic [ref=e19]: 내 담당 반
+        - button "반 추가" [ref=e20] [cursor=pointer]: +
+      - generic [ref=e21]:
+        - button "2학년 3반 28명" [ref=e22] [cursor=pointer]:
+          - generic [ref=e24]: 2학년 3반
+          - generic [ref=e25]: 28명
+        - button "2학년 1반 27명" [ref=e26] [cursor=pointer]:
+          - generic [ref=e28]: 2학년 1반
+          - generic [ref=e29]: 27명
+        - button "1학년 2반 26명" [ref=e30] [cursor=pointer]:
+          - generic [ref=e32]: 1학년 2반
+          - generic [ref=e33]: 26명
+        - button "3학년 4반 29명" [ref=e34] [cursor=pointer]:
+          - generic [ref=e36]: 3학년 4반
+          - generic [ref=e37]: 29명
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: 내 기기에 안전하게 저장
+            - generic [ref=e45]: 이 브라우저에서만 볼 수 있어요
+        - generic [ref=e46]:
+          - generic [ref=e47]: 김
+          - generic [ref=e48]:
+            - generic [ref=e49]: 김선생님
+            - generic [ref=e50]: 담임 교사
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - text: 내 수업 /
+          - strong [ref=e54]: 2학년 3반
+        - generic [ref=e57]: 모든 변경사항 저장됨
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: MY CLASSROOM
+            - heading "반별 기록" [level=1] [ref=e62]
+            - paragraph [ref=e63]: 오늘의 수업 시간표를 확인하고, 반 전체의 특이사항을 기록해요.
+          - button "기록 내보내기" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - text: 기록 내보내기
+        - region "기록 날짜 선택" [ref=e67]:
+          - generic [ref=e68]:
+            - button "이전 날짜" [ref=e69] [cursor=pointer]: ‹
+            - textbox "기록 날짜" [ref=e70]: 2026-10-18
+            - button "다음 날짜" [ref=e71] [cursor=pointer]: ›
+            - button "오늘" [ref=e72] [cursor=pointer]
+            - generic [ref=e73]: 일요일, 10월 18일
+          - generic [ref=e74]: 2학년 3반 · 28명
+        - region "오늘의 시간표" [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - heading "오늘의 시간표" [level=2] [ref=e78]
+              - paragraph [ref=e79]: 선택한 반의 요일별 시간표와 연결되어 있어요.
+            - button "시간표 편집" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - text: 시간표 편집
+          - generic [ref=e84]: 주말에는 등록된 수업이 없어요.
+        - region "반별 특이사항" [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - heading "반별 특이사항" [level=2] [ref=e89]
+                - generic [ref=e90]: 0건
+              - paragraph [ref=e91]: 학생 개인 기록이 아닌, 반 전체와 관련된 내용을 남겨요.
+            - button "특이사항 작성" [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: +
+              - text: 특이사항 작성
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - strong [ref=e98]: 아직 기록한 특이사항이 없어요
+            - text: 필요한 내용을 반 전체 기록으로 남겨보세요.
+        - generic [ref=e99]: 기록과 시간표는 현재 브라우저에 저장됩니다. 다른 기기에서는 보이지 않아요.
+  - status

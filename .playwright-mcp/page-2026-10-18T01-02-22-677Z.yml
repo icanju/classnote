@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "주 메뉴" [ref=e3]:
+      - link "교무노트 홈" [ref=e4] [cursor=pointer]:
+        - /url: "#home"
+        - img [ref=e6]
+        - generic [ref=e8]:
+          - generic [ref=e9]: 교무노트
+          - generic [ref=e10]: CLASSROOM LOG
+      - navigation "기록 메뉴" [ref=e11]:
+        - button "반별 기록" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+          - generic [ref=e16]: 반별 기록
+        - button "평가 모아보기" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+          - generic [ref=e21]: 평가 모아보기
+        - button "세특 · 과제" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e25]: 세특 · 과제
+      - generic [ref=e26]:
+        - generic [ref=e27]: 내 담당 반
+        - button "반 추가" [ref=e28] [cursor=pointer]: +
+      - generic [ref=e29]:
+        - button "2학년 3반" [ref=e30] [cursor=pointer]:
+          - generic [ref=e32]: 2학년 3반
+        - button "2학년 1반" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: 2학년 1반
+        - button "1학년 2반" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: 1학년 2반
+        - button "3학년 4반" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: 3학년 4반
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - text: 내 수업 /
+          - strong [ref=e45]: 2학년 3반
+        - generic [ref=e48]: 모든 변경사항 저장됨
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: MY CLASSROOM
+            - heading "반별 기록" [level=1] [ref=e54]
+            - paragraph [ref=e55]: 오늘의 수업 시간표를 확인하고, 반 전체의 특이사항을 기록해요.
+          - button "기록 내보내기" [ref=e56] [cursor=pointer]
+        - region "기록 날짜 선택" [ref=e57]:
+          - generic [ref=e58]:
+            - button "이전 날짜" [ref=e59] [cursor=pointer]: ‹
+            - textbox "기록 날짜" [ref=e60]: 2026-10-18
+            - button "다음 날짜" [ref=e61] [cursor=pointer]: ›
+            - button "오늘" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]: 일요일, 10월 18일
+          - generic [ref=e64]: 2학년 3반 · 28명
+        - region "오늘의 시간표" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - heading "오늘의 시간표" [level=2] [ref=e68]
+              - paragraph [ref=e69]: 시간표 편집을 누르고 요일·교시별 과목을 입력한 뒤 저장하세요.
+            - button "시간표 편집" [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+              - text: 시간표 편집
+          - generic [ref=e74]: 주말에는 등록된 수업이 없어요.
+        - region "반별 특이사항" [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - heading "반별 특이사항" [level=2] [ref=e79]
+                - generic [ref=e80]: 0건
+              - paragraph [ref=e81]: 학생 개인 기록이 아닌, 반 전체와 관련된 내용을 남겨요.
+            - button "특이사항 작성" [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]: +
+              - text: 특이사항 작성
+          - generic [ref=e85]:
+            - img [ref=e86]
+            - strong [ref=e88]: 아직 기록한 특이사항이 없어요
+            - text: 필요한 내용을 반 전체 기록으로 남겨보세요.
+        - region "출석부 바로가기" [ref=e89]:
+          - generic [ref=e91]:
+            - heading "출석부 바로가기" [level=2] [ref=e92]
+            - paragraph [ref=e93]: 이 반에서 사용하는 출석부 링크를 저장해 두세요.
+          - generic [ref=e94]:
+            - textbox "출석부 링크" [ref=e95]:
+              - /placeholder: https:// 출석부 링크를 붙여넣으세요
+            - button "링크 저장" [ref=e96] [cursor=pointer]
+        - generic [ref=e97]: 기록과 시간표는 현재 브라우저에 저장됩니다. 다른 기기에서는 보이지 않아요.
+  - status
