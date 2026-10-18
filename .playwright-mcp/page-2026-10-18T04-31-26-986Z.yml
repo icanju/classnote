@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "주 메뉴" [ref=e3]:
+      - generic [ref=e4]:
+        - link "수업 대시보드 홈" [ref=e5] [cursor=pointer]:
+          - /url: "#home"
+          - generic [ref=e7]:
+            - generic [ref=e8]: 수업 대시보드
+            - generic [ref=e9]: CLASSROOM DASHBOARD
+        - button "왼쪽 메뉴 접기" [expanded] [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+      - generic [ref=e13]: WORKSPACE
+      - navigation "기록 메뉴" [ref=e14]:
+        - button "전체보기" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e19]: 전체보기
+        - button "평가" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+          - generic [ref=e24]: 평가
+        - button "세특 · 과제" [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+          - generic [ref=e28]: 세특 · 과제
+      - generic [ref=e30]:
+        - generic [ref=e31]: 내 담당 반
+        - generic [ref=e32]:
+          - button "학생 명단 스프레드시트 업로드" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+          - button "반 추가" [ref=e36] [cursor=pointer]: +
+      - generic [ref=e37]:
+        - button "2학년 3반 선택" [ref=e38] [cursor=pointer]:
+          - generic [ref=e40]: 2학년 3반
+          - generic [ref=e41]: 8명
+        - button "2학년 1반 선택" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: 2학년 1반
+          - generic [ref=e45]: 0명
+        - button "1학년 2반 선택" [ref=e46] [cursor=pointer]:
+          - generic [ref=e48]: 1학년 2반
+          - generic [ref=e49]: 0명
+        - button "3학년 4반 선택" [ref=e50] [cursor=pointer]:
+          - generic [ref=e52]: 3학년 4반
+          - generic [ref=e53]: 0명
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img [ref=e56]
+          - generic [ref=e59]:
+            - generic [ref=e60]: 내 기기에 안전하게 저장
+            - generic [ref=e61]: 이 브라우저에서만 볼 수 있어요
+        - generic [ref=e62]:
+          - generic [ref=e63]: 김
+          - generic [ref=e65]: 김선생님
+          - button "교사 이름 수정" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - text: 내 수업 /
+          - strong [ref=e72]: 전체보기
+        - generic [ref=e75]: 모든 변경사항 저장됨
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: TEACHER OVERVIEW
+            - heading "전체보기" [level=1] [ref=e81]
+            - paragraph [ref=e82]: 오늘 시간표와 전체 담당 반의 진도·비고를 한눈에 모아봐요.
+          - button "오늘 기록 내보내기" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - text: 오늘 기록 내보내기
+        - region "기록 날짜 선택" [ref=e86]:
+          - generic [ref=e87]:
+            - button "이전 날짜" [ref=e88] [cursor=pointer]: ‹
+            - textbox "기록 날짜" [ref=e89]: 2026-10-18
+            - button "다음 날짜" [ref=e90] [cursor=pointer]: ›
+            - button "오늘" [ref=e91] [cursor=pointer]
+            - generic [ref=e92]: 일요일, 10월 18일
+          - generic [ref=e93]: 교사 전체 시간표
+        - region "오늘의 교사 시간표" [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - heading "오늘의 교사 시간표" [level=2] [ref=e97]
+              - paragraph [ref=e98]: 오늘 수업하는 교시와 반 이름을 표로 보여줘요.
+            - button "주간 시간표 편집" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - text: 주간 시간표 편집
+          - generic [ref=e103]: 주말에는 등록된 수업이 없어요.
+        - region "오늘 반별 진도 비교" [ref=e104]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - heading "오늘 반별 진도 비교" [level=2] [ref=e108]
+              - generic [ref=e109]: 0/4반 기록
+            - paragraph [ref=e110]: 각 반의 진도와 비고를 이 표에서 바로 입력하고 수정해요.
+          - table [ref=e113]:
+            - rowgroup [ref=e114]:
+              - row "반 이름 진도 비고" [ref=e115]:
+                - columnheader "반 이름" [ref=e116]
+                - columnheader "진도" [ref=e117]
+                - columnheader "비고" [ref=e118]
+                - columnheader [ref=e119]
+            - rowgroup [ref=e120]:
+              - row "2학년 3반 저장" [ref=e121]:
+                - cell "2학년 3반" [ref=e122]
+                - cell [ref=e123]:
+                  - textbox "2학년 3반 진도" [ref=e124]:
+                    - /placeholder: 오늘 수업 진도
+                - cell [ref=e125]:
+                  - textbox "2학년 3반 비고" [ref=e126]:
+                    - /placeholder: 비고 사항
+                - cell "저장" [ref=e127]:
+                  - button "저장" [ref=e128] [cursor=pointer]
+              - row "2학년 1반 저장" [ref=e129]:
+                - cell "2학년 1반" [ref=e130]
+                - cell [ref=e131]:
+                  - textbox "2학년 1반 진도" [ref=e132]:
+                    - /placeholder: 오늘 수업 진도
+                - cell [ref=e133]:
+                  - textbox "2학년 1반 비고" [ref=e134]:
+                    - /placeholder: 비고 사항
+                - cell "저장" [ref=e135]:
+                  - button "저장" [ref=e136] [cursor=pointer]
+              - row "1학년 2반 저장" [ref=e137]:
+                - cell "1학년 2반" [ref=e138]
+                - cell [ref=e139]:
+                  - textbox "1학년 2반 진도" [ref=e140]:
+                    - /placeholder: 오늘 수업 진도
+                - cell [ref=e141]:
+                  - textbox "1학년 2반 비고" [ref=e142]:
+                    - /placeholder: 비고 사항
+                - cell "저장" [ref=e143]:
+                  - button "저장" [ref=e144] [cursor=pointer]
+              - row "3학년 4반 저장" [ref=e145]:
+                - cell "3학년 4반" [ref=e146]
+                - cell [ref=e147]:
+                  - textbox "3학년 4반 진도" [ref=e148]:
+                    - /placeholder: 오늘 수업 진도
+                - cell [ref=e149]:
+                  - textbox "3학년 4반 비고" [ref=e150]:
+                    - /placeholder: 비고 사항
+                - cell "저장" [ref=e151]:
+                  - button "저장" [ref=e152] [cursor=pointer]
+        - region "공용 링크" [ref=e153]:
+          - generic [ref=e154]:
+            - heading "공용 링크" [level=2] [ref=e155]
+            - generic [ref=e156]:
+              - button "+ 링크 추가" [ref=e157] [cursor=pointer]
+              - button "링크 삭제" [ref=e158] [cursor=pointer]
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: 출석부
+              - textbox "출석부 링크 주소" [ref=e162]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e164] [cursor=pointer]
+            - generic [ref=e165]:
+              - generic [ref=e166]: 코딩 확인 앱
+              - textbox "코딩 확인 앱 링크 주소" [ref=e167]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e169] [cursor=pointer]
+            - generic [ref=e170]:
+              - generic [ref=e171]: 클래스룸
+              - textbox "클래스룸 링크 주소" [ref=e172]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e174] [cursor=pointer]
+            - generic [ref=e175]:
+              - generic [ref=e176]: OJ 사이트
+              - textbox "OJ 사이트 링크 주소" [ref=e177]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e179] [cursor=pointer]
+        - generic [ref=e180]: 기록과 시간표는 현재 브라우저에 저장됩니다. 다른 기기에서는 보이지 않아요.
+  - status
