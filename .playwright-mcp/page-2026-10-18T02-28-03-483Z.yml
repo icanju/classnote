@@ -1,0 +1,108 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "주 메뉴" [ref=e3]:
+      - generic [ref=e4]:
+        - link "교무노트 홈" [ref=e5] [cursor=pointer]:
+          - /url: "#home"
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - generic [ref=e10]: 교무노트
+            - generic [ref=e11]: CLASSROOM LOG
+        - button "왼쪽 메뉴 접기" [expanded] [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - navigation "기록 메뉴" [ref=e15]:
+        - button "반별 기록" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+          - generic [ref=e20]: 반별 기록
+        - button "평가 모아보기" [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+          - generic [ref=e25]: 평가 모아보기
+        - button "세특 · 과제" [ref=e26] [cursor=pointer]:
+          - img [ref=e27]
+          - generic [ref=e29]: 세특 · 과제
+      - generic [ref=e30]:
+        - generic [ref=e31]: 내 담당 반
+        - generic [ref=e32]:
+          - button "학생 명단 스프레드시트 업로드" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+          - button "반 추가" [ref=e36] [cursor=pointer]: +
+      - generic [ref=e37]:
+        - button "2학년 3반 선택" [ref=e38] [cursor=pointer]:
+          - generic [ref=e40]: 2학년 3반
+        - button "2학년 1반 선택" [ref=e41] [cursor=pointer]:
+          - generic [ref=e43]: 2학년 1반
+        - button "1학년 2반 선택" [ref=e44] [cursor=pointer]:
+          - generic [ref=e46]: 1학년 2반
+        - button "3학년 4반 선택" [ref=e47] [cursor=pointer]:
+          - generic [ref=e49]: 3학년 4반
+    - main [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - text: 내 수업 /
+          - strong [ref=e53]: 전체 담당 반
+        - generic [ref=e56]: 모든 변경사항 저장됨
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: TEACHER OVERVIEW
+            - heading "반별 기록" [level=1] [ref=e62]
+            - paragraph [ref=e63]: 오늘 시간표와 전체 담당 반의 진도·비고를 한눈에 모아봐요.
+          - button "오늘 기록 내보내기" [ref=e64] [cursor=pointer]
+        - region "기록 날짜 선택" [ref=e65]:
+          - generic [ref=e66]:
+            - button "이전 날짜" [ref=e67] [cursor=pointer]: ‹
+            - textbox "기록 날짜" [ref=e68]: 2026-10-18
+            - button "다음 날짜" [ref=e69] [cursor=pointer]: ›
+            - button "오늘" [ref=e70] [cursor=pointer]
+            - generic [ref=e71]: 일요일, 10월 18일
+          - generic [ref=e72]: 교사 전체 시간표
+        - region "오늘의 교사 시간표" [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "오늘의 교사 시간표" [level=2] [ref=e76]
+              - paragraph [ref=e77]: 각 교시에 수업하는 반과 과목을 함께 표시해요.
+            - button "주간 시간표 편집" [ref=e78] [cursor=pointer]:
+              - img [ref=e79]
+              - text: 주간 시간표 편집
+          - generic [ref=e82]: 주말에는 등록된 수업이 없어요.
+        - region "오늘 반별 진도 · 비고" [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - heading "오늘 반별 진도 · 비고" [level=2] [ref=e87]
+                - generic [ref=e88]: 0건
+              - paragraph [ref=e89]: 담당 반 전체의 기록을 모아봐요. 새 기록은 반을 골라 작성할 수 있어요.
+            - button "반 진도 적기" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: +
+              - text: 반 진도 적기
+          - generic [ref=e93]:
+            - img [ref=e94]
+            - strong [ref=e96]: 오늘은 아직 반별 진도 기록이 없어요
+            - text: 모든 담당 반의 수업 진도와 비고가 이곳에 모여요.
+        - region "공용 링크" [ref=e97]:
+          - generic [ref=e98]:
+            - heading "공용 링크" [level=2] [ref=e99]
+            - button "+ 링크 추가" [ref=e100] [cursor=pointer]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: 출석부
+              - textbox "출석부 링크 주소" [ref=e104]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e106] [cursor=pointer]
+            - generic [ref=e107]:
+              - generic [ref=e108]: 코딩 확인 앱
+              - textbox "코딩 확인 앱 링크 주소" [ref=e109]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e111] [cursor=pointer]
+            - generic [ref=e112]:
+              - generic [ref=e113]: 클래스룸
+              - textbox "클래스룸 링크 주소" [ref=e114]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e116] [cursor=pointer]
+            - generic [ref=e117]:
+              - generic [ref=e118]: OJ 사이트
+              - textbox "OJ 사이트 링크 주소" [ref=e119]:
+                - /placeholder: https:// 링크 주소
+              - button "저장" [ref=e121] [cursor=pointer]
+        - generic [ref=e122]: 기록과 시간표는 현재 브라우저에 저장됩니다. 다른 기기에서는 보이지 않아요.
+  - status
