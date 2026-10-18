@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f6f2">
-  <link rel="icon" type="image/png" href="/ai-images/ju-smile-favicon.png">
-  <title>수업 대시보드 · 전체보기</title>
+  <link rel="icon" type="image/svg+xml" href="/ai-images/ju-smile-white.svg">
+  <title>CLASS DASHBOARD</title>
   <style>
     :root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#26342d;background:#f5f6f2;font-synthesis:none;text-rendering:optimizeLegibility;--ink:#26342d;--muted:#78827a;--line:#e5e9e2;--green:#426c52;--green-dark:#31523d;--pale:#edf3eb;--paper:#fff;--warm:#f6f2e9}
     *{box-sizing:border-box}body{margin:0;min-width:320px}button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #a7c8aa;outline-offset:2px}.app{min-height:100vh;display:grid;grid-template-columns:252px minmax(0,1fr)}
@@ -41,16 +41,16 @@
     @media(max-width:620px){.notes-list{padding:0 10px 10px}.progress-table,.progress-table tbody,.progress-table tr,.progress-table td{display:block;width:100%}.progress-table thead{display:none}.progress-table tr{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #e8ede6;padding:8px 0}.progress-table td{width:auto!important;padding:4px!important;border:0}.progress-table td:first-child{grid-column:1/-1;font-weight:700}.progress-table td:last-child{grid-column:1/-1;display:flex;justify-content:flex-end}.progress-table textarea{min-height:70px;padding:6px;font-size:10px}.progress-save{min-height:34px}}
     .assessment-table th:nth-child(1),.assessment-table td:nth-child(1){width:27%}.assessment-table th:nth-child(2),.assessment-table td:nth-child(2){width:18%}.assessment-table th:nth-child(3),.assessment-table td:nth-child(3){width:55%}
     @media(max-width:620px){.assessment-table th:nth-child(1),.assessment-table td:nth-child(1){width:31%}.assessment-table th:nth-child(2),.assessment-table td:nth-child(2){width:20%}.assessment-table th:nth-child(3),.assessment-table td:nth-child(3){width:49%}}
-    .brand-mark img{display:block;width:100%;height:100%;object-fit:contain;border-radius:inherit}
+    .brand-mark{background:#fff;border:1px solid #dce6dd;overflow:hidden}.brand-mark img{display:block;width:100%;height:100%;object-fit:contain;border-radius:inherit}.brand-copy b{font-size:12px;letter-spacing:.08em;white-space:nowrap;color:#31523d}
     [hidden]{display:none!important}
   </style>
 </head>
 <body>
   <div class="app" id="appShell">
     <aside class="sidebar" aria-label="주 메뉴">
-      <div class="brand-row"><a class="brand" href="#home" aria-label="수업 대시보드 홈">
-        <span class="brand-mark" aria-hidden="true"><img src="/ai-images/ju-smile-favicon.png" alt=""></span>
-        <span class="brand-copy"><b>수업 대시보드</b><small>CLASSROOM DASHBOARD</small></span>
+      <div class="brand-row"><a class="brand" href="#home" aria-label="CLASS DASHBOARD 홈">
+        <span class="brand-mark" aria-hidden="true"><img src="/ai-images/ju-smile-white.svg" alt=""></span>
+        <span class="brand-copy"><b>CLASS DASHBOARD</b></span>
       </a><button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="왼쪽 메뉴 접기" aria-expanded="true" title="왼쪽 메뉴 접기"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"></path></svg></button></div>
       <div class="side-label">WORKSPACE</div>
       <nav class="primary-nav" aria-label="기록 메뉴">
