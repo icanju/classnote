@@ -1,0 +1,117 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "주 메뉴" [ref=e3]:
+      - generic [ref=e4]:
+        - link "교무노트 홈" [ref=e5] [cursor=pointer]:
+          - /url: "#home"
+          - img [ref=e7]
+          - generic [ref=e9]:
+            - generic [ref=e10]: 교무노트
+            - generic [ref=e11]: CLASSROOM LOG
+        - button "왼쪽 메뉴 접기" [expanded] [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - generic [ref=e15]: WORKSPACE
+      - navigation "기록 메뉴" [ref=e16]:
+        - button "반별 기록" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+          - generic [ref=e21]: 반별 기록
+        - button "평가 모아보기" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+          - generic [ref=e26]: 평가 모아보기
+        - button "세특 · 과제" [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+          - generic [ref=e30]: 세특 · 과제
+      - generic [ref=e32]:
+        - generic [ref=e33]: 내 담당 반
+        - generic [ref=e34]:
+          - button "학생 명단 스프레드시트 업로드" [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+          - button "반 추가" [ref=e38] [cursor=pointer]: +
+      - generic [ref=e39]:
+        - button "2학년 3반 선택" [ref=e40] [cursor=pointer]:
+          - generic [ref=e42]: 2학년 3반
+          - generic [ref=e43]: 8명
+        - button "2학년 1반 선택" [ref=e44] [cursor=pointer]:
+          - generic [ref=e46]: 2학년 1반
+          - generic [ref=e47]: 0명
+        - button "1학년 2반 선택" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: 1학년 2반
+          - generic [ref=e51]: 0명
+        - button "3학년 4반 선택" [ref=e52] [cursor=pointer]:
+          - generic [ref=e54]: 3학년 4반
+          - generic [ref=e55]: 0명
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - img [ref=e58]
+          - generic [ref=e61]:
+            - generic [ref=e62]: 내 기기에 안전하게 저장
+            - generic [ref=e63]: 이 브라우저에서만 볼 수 있어요
+        - generic [ref=e64]:
+          - generic [ref=e65]: 김
+          - generic [ref=e66]:
+            - generic [ref=e67]: 김선생님
+            - generic [ref=e68]: 담임 교사
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - text: 내 수업 /
+          - strong [ref=e72]: 전체 담당 반
+        - generic [ref=e75]: 모든 변경사항 저장됨
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: TEACHER OVERVIEW
+            - heading "반별 기록" [level=1] [ref=e81]
+            - paragraph [ref=e82]: 오늘 시간표와 전체 담당 반의 진도·비고를 한눈에 모아봐요.
+          - button "오늘 기록 내보내기" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - text: 오늘 기록 내보내기
+        - region "기록 날짜 선택" [ref=e86]:
+          - generic [ref=e87]:
+            - button "이전 날짜" [ref=e88] [cursor=pointer]: ‹
+            - textbox "기록 날짜" [ref=e89]: 2026-10-18
+            - button "다음 날짜" [ref=e90] [cursor=pointer]: ›
+            - button "오늘" [ref=e91] [cursor=pointer]
+            - generic [ref=e92]: 일요일, 10월 18일
+          - generic [ref=e93]: 교사 전체 시간표
+        - region "오늘의 교사 시간표" [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - heading "오늘의 교사 시간표" [level=2] [ref=e97]
+              - paragraph [ref=e98]: 각 교시에 수업하는 반과 과목을 함께 표시해요.
+            - button "주간 시간표 편집" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - text: 주간 시간표 편집
+          - generic [ref=e103]: 주말에는 등록된 수업이 없어요.
+        - region "오늘 반별 진도 · 비고" [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - heading "오늘 반별 진도 · 비고" [level=2] [ref=e108]
+                - generic [ref=e109]: 0건
+              - paragraph [ref=e110]: 담당 반 전체의 기록을 모아봐요. 새 기록은 반을 골라 작성할 수 있어요.
+            - button "반 진도 적기" [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: +
+              - text: 반 진도 적기
+          - generic [ref=e114]:
+            - img [ref=e115]
+            - strong [ref=e117]: 오늘은 아직 반별 진도 기록이 없어요
+            - text: 모든 담당 반의 수업 진도와 비고가 이곳에 모여요.
+        - region "모든 반 공용 출석부" [ref=e118]:
+          - generic [ref=e120]:
+            - heading "모든 반 공용 출석부" [level=2] [ref=e121]
+            - paragraph [ref=e122]: 여기에 저장한 하나의 링크를 모든 반에서 함께 사용해요.
+          - generic [ref=e123]:
+            - textbox "공용 출석부 링크" [ref=e124]:
+              - /placeholder: https:// 출석부 링크를 붙여넣으세요
+            - button "링크 저장" [ref=e125] [cursor=pointer]
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]: 코딩 확인 앱
+              - generic [ref=e129]: 직접 만든 앱 주소를 저장해 두세요. 모든 반에서 함께 사용해요.
+            - generic [ref=e130]:
+              - textbox "코딩 확인 앱 링크" [ref=e131]:
+                - /placeholder: https:// 코딩 확인 앱 링크를 붙여넣으세요
+              - button "링크 저장" [ref=e132] [cursor=pointer]
+        - generic [ref=e133]: 기록과 시간표는 현재 브라우저에 저장됩니다. 다른 기기에서는 보이지 않아요.
+  - status
